@@ -68,7 +68,7 @@ Calculate the density of the manhole covers by neighborhood and use a `Graduated
 The realtor is most interested in the five neighborhoods with the densest coverage of man hole covers. Open the attribute table, click on the column that you created for `density` and sort it descending. Select the top five rows by clicking on the header at the left of the row. The selected rows should turn yellow. Right click on the layer in the `Layers` panel and `Export` the layer, choosing the `CSV` format. This file will be included in your deliverable below:
 
 ### Deliverables
-This assignment requires two files to be commited to a branch named `manholes` in this repo:
+Create a branch on this repo named `manholes`, add the two files below, and submit a PR to the `master` branch
 1. Screenshot of the manhole density by neighborhood map named `manhole_density_map.png`
 2. CSV file containing the attributes of the five neighborhoods with the highest density of man hole covers.
 
