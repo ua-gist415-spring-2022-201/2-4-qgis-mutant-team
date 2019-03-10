@@ -1,15 +1,16 @@
-# Lab: Mutant Sewer Turtle Map
+# Lab: Secret Mutant Hero Team Map
 ## Worth: 40
 ## Due: 7 days
 ## Assignment
 
 ### Overview
-Recent reports of mutant turtle creatures emerging from Tucson's sewer pipes at night has prompted a local realtor to hire 
+Recent reports of mutant creatures emerging from Tucson's sewer pipes at night has prompted a local realtor to hire 
 you to conduct a Geospatial Analysis to identify the neighborhoods most at risk of encountering these mutant creatures 
-while walking around the neighborhood at night. While there have been no negative incidents associated with the turtles, 
-some residents hav ereported feeling uneasy at their presence. On the other hand, some officers from the Tucson Police 
-Department have unofficially reported that crime is actually decreased in locations where they have been found. 
+while walking around the neighborhood at night. While there have been no negative incidents associated with the creatures, 
+some residents have reported feeling uneasy at their presence. On the other hand, some officers from the Tucson Police 
+Department have anecdotally reported that crime has actually decreased in locations where they have been found. 
 
+![PBF Comic: Secret Mutant Hero Team](PBF198-Secret_Mutant_Hero_Team.jpg)
 You will use the City of Tucson's Open GIS Data to conduct this analysis. The City of Tucson makes their GIS Data publicly available for download but also available for consumption as web services. 
 
 ### Objective
