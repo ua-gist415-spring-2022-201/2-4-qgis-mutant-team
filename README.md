@@ -72,3 +72,4 @@ Create a branch on this repo named `manholes`, add the two files below, and subm
 1. Screenshot of the manhole density by neighborhood map named `manhole_density_map.png`
 2. CSV file containing the attributes of the five neighborhoods with the highest density of man hole covers.
 
+Be sure to send the instructor a message in slack with a link to your Pull request to initiate the grading process.
