@@ -1,6 +1,6 @@
 # Lab: Secret Mutant Hero Team Map
 ## Worth: 40
-## Due: March 24, 2019, 11:59pm
+## Due: October 10, 2019, 11:59pm
 ## Assignment
 
 ### Overview
