@@ -3,6 +3,11 @@
 ## Due: October 10, 2019, 11:59pm
 ## Assignment
 
+## Deliverable
+`Pull request` to merge a new branch named `assignment` with `master`. Your branch should contain:
+1. `screenshot-manhole-density.png`
+2. `neighborhood-manhole-density.csv`
+
 ### Overview
 Recent reports of mutant creatures emerging from Tucson's sewer pipes at night has prompted a local realtor to hire 
 you to conduct a Geospatial Analysis to identify the neighborhoods most at risk of encountering these mutant creatures 
@@ -64,12 +69,7 @@ The projection must be in a metric like UTM in order for density calculation to 
 Calculate the density of the manhole covers by neighborhood and use a `Graduated` symbology to classify the density field into 10 classes. Use any color scheme that you like. When you click `Apply` you should get a map like this:
 ![Screenshot of density map](sample_screenshot.png)
 
+Save a screenshot of your QGIS workspace in a file named `screenshot-manhole-density.png`.
+
 ### Summary File
-The realtor is most interested in the five neighborhoods with the densest coverage of man hole covers. Open the attribute table, click on the column that you created for `density` and sort it descending. Select the top five rows by clicking on the header at the left of the row. The selected rows should turn yellow. Right click on the layer in the `Layers` panel and `Export` the layer, choosing the `CSV` format. This file will be included in your deliverable below:
-
-### Deliverables
-Create a branch on this repo named `manholes`, add the two files below, and submit a PR to the `master` branch
-1. Screenshot of the manhole density by neighborhood map named `manhole_density_map.png`
-2. CSV file containing the attributes of the five neighborhoods with the highest density of man hole covers.
-
-Be sure to send the instructor a message in slack with a link to your Pull request to initiate the grading process.
+The realtor is most interested in the five neighborhoods with the densest coverage of man hole covers. Open the attribute table, click on the column that you created for `density` and sort it descending. Select the top five rows by clicking on the header at the left of the row. The selected rows should turn yellow. Right click on the layer in the `Layers` panel and `Export` the layer, choosing the `CSV` format. Name the file `neighborhood-manhole-density.csv`.
