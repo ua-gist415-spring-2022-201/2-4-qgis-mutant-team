@@ -25,10 +25,14 @@ Find the neighborhoods with the highest density of man hole covers.
 You will use two layers from the [City of Tucson's Open GIS Datasets](http://gisdata.tucsonaz.gov/) to conduct this analysis.
 The data are summarized below:
 - [Man Holes](http://gisdata.tucsonaz.gov/datasets/60a2bb58e8054bee8562127bfa0d9fc1_9)
+- [(GeoJSON)](https://opendata.arcgis.com/datasets/60a2bb58e8054bee8562127bfa0d9fc1_9.geojson)
 - [Neighborhood Associations](http://gisdata.tucsonaz.gov/datasets/828d637891e94d95a2e62cf62ad2f7e0_0)
+- [(GeoJSON)](https://opendata.arcgis.com/datasets/828d637891e94d95a2e62cf62ad2f7e0_0.geojson)
 
 #### Data Instructions
 Use the links above to find the landing page for each of the datasets or find the data using the Search feature on the [City of Tucson GIS Open Data website](http://gisdata.tucsonaz.gov/) using the search terms "Man holes" and "Subdivisions". The following instructions are for Man Holes but can be applied to any of the City of Tucson's Open Data datasets:
+
+_Note: These data are not always available as a service. As a workaround, downoad the files directly and use them as local files_
 
 1. Open the "Man Holes - Open Data" page and look for a Drop-down for "APIs" -- Click this and select the link listed under "GeoJSON".
 2. In QGIS, select "Layer" from the Menu Bar, then "Add Layer" -> "Add Vector Layer". 
@@ -48,8 +52,7 @@ Complications: The Man Holes data is a line feature showing the outline of each 
 to convert them directly to points, that will simply export the polygon boundaries as points and whwn you calculate density, you will get different (and wrong) results if some man holes were digitized were more precision than others (or if they are simply bigger). The metric you want with man hole covers is `Count`. 
 
 I suggest:
-1. Polygonize the Lines to create closed polygon features for the Man Holes
-2. Find centroids of the polygons
+1. Derive centroids of the Manholes _Lines_ layer.
 
 Another complication: The Source Data is in EPSG:4326, a lat/long coordinate reference system which uses units `degrees`, making measurement impractical at the city scale. You will need to reproject the source data into a coordinate reference system in which distance is preserved. I suggest UTM Zone 12, NAD83 HARN (aka `EPSG:102206`). 
 
