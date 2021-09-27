@@ -23,25 +23,9 @@ Find the neighborhoods with the highest density of man hole covers.
 
 ### Source Data
 You will use two layers from the [City of Tucson's Open GIS Datasets](http://gisdata.tucsonaz.gov/) to conduct this analysis.
-The data are summarized below:
-- [Man Holes](http://gisdata.tucsonaz.gov/datasets/60a2bb58e8054bee8562127bfa0d9fc1_9)
-- [(GeoJSON)](https://opendata.arcgis.com/datasets/60a2bb58e8054bee8562127bfa0d9fc1_9.geojson)
-- [Neighborhood Associations](http://gisdata.tucsonaz.gov/datasets/828d637891e94d95a2e62cf62ad2f7e0_0)
-- [(GeoJSON)](https://opendata.arcgis.com/datasets/828d637891e94d95a2e62cf62ad2f7e0_0.geojson)
-
-#### Data Instructions
-Use the links above to find the landing page for each of the datasets or find the data using the Search feature on the [City of Tucson GIS Open Data website](http://gisdata.tucsonaz.gov/) using the search terms "Man holes" and "Subdivisions". The following instructions are for Man Holes but can be applied to any of the City of Tucson's Open Data datasets:
-
-_Note: These data are not always available as a service. As a workaround, downoad the files directly and use them as local files_
-
-1. Open the "Man Holes - Open Data" page and look for a Drop-down for "APIs" -- Click this and select the link listed under "GeoJSON".
-2. In QGIS, select "Layer" from the Menu Bar, then "Add Layer" -> "Add Vector Layer". 
-3. For "Source Type", select "Protocol: HTTP(S), cloud, etc.)
-4. For Protocol, select "GeoJSON" and paste the URI you copied from the City of Tucson's website. 
-5. Click "Add" to add to add the data to your QGIS project. 
-6. It will have an unreadable name, so right click on the Layer in the Layer Menu and Rename it to "Man Holes".
-
-Repeat for Neighborhood Assocations.
+The data are available in d2l (no longer publicly available from COT):
+- [Man Holes](https://d2l.arizona.edu/d2l/le/content/1094533/viewContent/11518017/View)
+- [Neighborhood Associations](https://d2l.arizona.edu/d2l/le/content/1094533/viewContent/11518018/View)
 
 ### Strategy
 The overall goal is to identify the density of manhole covers within each subdivision. 
