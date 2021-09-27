@@ -1,6 +1,4 @@
-# Lab: Secret Mutant Hero Team Map
-## Worth: 40
-## Due: October 10, 2019, 11:59pm
+# Lab: QGIS Mutant Team
 ## Assignment
 
 ## Deliverable
