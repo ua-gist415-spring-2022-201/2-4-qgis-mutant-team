@@ -1,0 +1,38 @@
+
+name: Check for required files
+
+on:
+  push:
+    branches: [ assignment ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check 1 files
+        id: check_1_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screenshot-manhole-density.png"
+          key:  
+
+      - name: Required files exist
+        if: steps.check_1_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screenshot-manhole-density.png', is missing
+          exit 1
+          
+      - name: Check 2 files
+        id: check_2_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "neighborhood-manhole-density.csv"
+
+      - name: Required files exist
+        if: steps.check_2_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'neighborhood-manhole-density.csv', is missing
+          exit 1
+          
