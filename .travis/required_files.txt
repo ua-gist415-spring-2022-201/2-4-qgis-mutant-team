@@ -1,2 +1,0 @@
-screenshot-manhole-density.png
-neighborhood-manhole-density.csv
