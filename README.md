@@ -1,10 +1,11 @@
 # Lab: QGIS Mutant Team
 ## Assignment
+## Worth: 40
 
 ## Deliverable
 `Pull request` to merge a new branch named `assignment` with `master`. Your branch should contain:
-1. `screenshot-manhole-density.png`
-2. `neighborhood-manhole-density.csv`
+1. `screenshot-manhole-density.png` `20 pts`
+2. `neighborhood-manhole-density.csv` `20 pts`
 
 ### Overview
 Recent reports of mutant creatures emerging from Tucson's sewer pipes at night has prompted a local realtor to hire 
