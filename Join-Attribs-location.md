@@ -8,4 +8,4 @@ If you are having issues in performing summary join attribute by location. Join 
 * Under “Summaries to calculate”, drop-down select count.
 * Make sure to provide a different “Joined layer” name each time you run this tool
 
-![Join Attribute by location dialog](https://raw.githubusercontent.com/ua-gist415-spring-2022-201/2-4-qgis-mutant-team/master/join%20by%20attribute.jpg)
+![Join Attribute by location dialog](https://raw.githubusercontent.com/ua-gist415-spring-2022-201/2-4-qgis-mutant-team/master/join%20by%20attribute.jpg?token=GHSAT0AAAAAABSE5L4BSOCGTUBN6AWALSPAYRQ55LQ)
