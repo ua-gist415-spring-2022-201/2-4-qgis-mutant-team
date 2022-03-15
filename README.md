@@ -51,6 +51,10 @@ The projection must be in a metric like UTM in order for density calculation to 
 
 ![Screenshot of field calculator](field_calculator.png)
 
+### Issues performing Join
+If you are having issues in performing summary join attribute by location please take a look at the document [here](https://github.com/ua-gist415-spring-2022-201/2-4-qgis-mutant-team/blob/master/Join-Attribs-location.md) to guide you through the process 
+
+
 ### Visualization
 Calculate the density of the manhole covers by neighborhood and use a `Graduated` symbology to classify the density field into 10 classes. Use any color scheme that you like. When you click `Apply` you should get a map like this:
 ![Screenshot of density map](sample_screenshot.png)
